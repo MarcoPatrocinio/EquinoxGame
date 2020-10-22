@@ -7,7 +7,7 @@
 #cp-Menu
 {
     display: flex;
-    width: 200px;
+    width: 25%;
     height: 500px;
     flex-direction: column;
 }
@@ -17,4 +17,83 @@
     margin: 10px auto;
     width: 75px;
     height: 75px;
+}
+#cpm-CharImage > img
+{
+    width: 100%;
+}
+#cpm-Nome
+{
+    margin: 15px auto;
+}
+#cpm-Opcoes
+{
+    margin: 0 auto;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cpm-Opcoes > input
+{
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(169, 169, 255);
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+}
+#cpm-Opcoes > input:hover
+{
+    background-color: black;
+    color: white;
+}
+
+#cp-Historia
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+#cph-Texto
+{
+    margin: 15px auto;
+    width: 50%;
+    text-align: justify;
+}
+#cph-Escolhas
+{
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+.cphe-Escolhas:first-child
+{
+    border-radius: 5px 5px 0 0;
+}
+.cphe-Escolhas
+{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.cphe-Escolhas > input , .cphe-Escolhas > label
+{
+    margin: 5px;
+}
+.cphe-Escolhas:last-child
+{
+    border-radius: 0 0 5px 5px;
+    border-bottom: 1px solid black;
+}
+#cp-Next
+{
+    margin: 5px auto;
+    width: 100px;
+}
+#cp-Next > input
+{
+    width: 100%;
 }
