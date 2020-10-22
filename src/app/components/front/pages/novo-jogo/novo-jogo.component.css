@@ -1,0 +1,20 @@
+#c-Principal
+{
+    display: flex;
+    margin: 5px;
+    background-color: wheat;
+}
+#cp-Menu
+{
+    display: flex;
+    width: 200px;
+    height: 500px;
+    flex-direction: column;
+}
+#cpm-CharImage
+{
+    display: block;
+    margin: 10px auto;
+    width: 75px;
+    height: 75px;
+}
